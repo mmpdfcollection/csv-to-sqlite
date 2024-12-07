@@ -1,0 +1,10 @@
+# Include all Python files
+include *.py
+
+# Include README and LICENSE
+include README.md
+include LICENSE
+
+# Include any additional files you want
+recursive-include csv_to_sqlite *.txt
+recursive-include csv_to_sqlite *.md
